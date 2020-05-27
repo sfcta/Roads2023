@@ -1,0 +1,7 @@
+*.BAK
+*.bak
+*.pyc
+*.PRN
+*.VAR
+*.vpr
+docs/*
