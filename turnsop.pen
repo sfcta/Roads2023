@@ -49,18 +49,23 @@
   33669  21006  33636 1 -1
   21021  21023  21026 1 -1
   21165  21131  21132 1 -1
-  21142  21139  21141 1 -1 ; Cesar Chavez at Florida EBLT
-  21135  21139  21134 1 -1 ; Cesar Chavez at Florida WBLT
-  21134  21139  21141 1 -1 ; Florida at Cesar Chavez NBTH
-  21141  21139  21134 1 -1 ; Florida at Cesar Chavez SBTH
-  21173  21142  21170 1 -1 ; Cesar Chavez at Alabama EBLT
-  21177  21173  21174 1 -1 ; Cesar Chavez at Harrison EBLT
-  21142  21173  21171 1 -1 ; Cesar Chavez at Harrison WBLT
+  21134  21139  21141 1 -1 ;Florida at Cesar Chavez NBTH
+  21135  21139  21134 1 -1 ;Cesar Chavez at Florida WBLT
+  21141  21139  21134 1 -1 ;Florida at Cesar Chavez SBTH
+  21142  21139  21141 1 -1 ;Cesar Chavez at Florida EBLT
+  21173  21142  21170 1 -1 ;Cesar Chavez at Alabama EBLT
+  21142  21173  21171 1 -1 ;Cesar Chavez at Harrison WBLT
+  21177  21173  21174 1 -1 ;Cesar Chavez at Harrison EBLT
   23984  21178  23983 1 -1
   21265  21262  21261 1 -1
-  33364  21290  21293 1 -1 ; Cesar Chavez at Shotwell WBLT
-  21177  21290  21291 1 -1 ; Cesar Chavez at Shotwell WBLT
+  21177  21290  21291 1 -1 ;Cesar Chavez at Shotwell WBLT
+  33364  21290  21293 1 -1 ;Cesar Chavez at Shotwell WBLT
+  21302  21304  33364 1 -1 ;Mission @ Cesar Chavez SB left
+  21340  21304  21302 1 -1 ;Mission @ Cesar Chavez NB through
+  21340  21304  21343 1 -1 ;Mission @ Cesar Chavez NB left
   21345  21304  21302 1 -1
+  21302  21306  24086 1 -1 ;Mission @ 26th NB left
+  24073  21306  24072 1 -1 ;Mission @ 26th SB left
   21327  21328  21890 1 -1
   21333  21332  21331 1 -1
   21333  21332  21338 1 -1
@@ -103,7 +108,13 @@
   22336  22341  22343 1 -1
   32977  22341  22336 1 -1
   22407  22366  22372 1 -1
+  22420  22424  22433 1 -1 ;Fowler Ave NB @ Portola: no left turn
+  22420  22424  22443 1 -1 ;Fowler Ave NB across Portola to Syndey Way not allowed (soft hit posts)
+  22443  22424  22420 1 -1 ;Sydney Way SB across Portola to Fowler not allowed (soft hit posts)
+  22443  22424  22437 1 -1 ;Sydney Way SB @ Portola: no left turn
   22424  22433  22423 1 -1
+  21598  22456  21593 1 -1 ;Plymouth Ave SB @ Sagamore: right only (no left onto San Jose Ave NE)
+  21598  22456  33438 1 -1 ;Plymouth Ave SB @ Sagamore: right only (no thru to Sickles Ave)
   22457  22456  21593 1 -1
   33438  22456  22460 1 -1
   21589  22460  22456 1 -1
@@ -198,64 +209,81 @@
   23820  23821  23823 1 -1
   28064  23838  20657 1 -1
   23854  23871  33620 1 -1
-  23897  23890  50076 1 -1; PROHIBITED Left from 6th to Brannan
-  23891  23890  23897 1 -1; PROHIBITED Left from Brannan to 6th
-  23899  23890  23891 1 -1; PROHIBITED Left from I-280 to Brannan
-  23899  23890  50100 1 -1; PROHIBITED U-turn from I-280 at Brannan
+  23891  23890  23897 1 -1 ;PROHIBITED Left from Brannan to 6th
+  23897  23890  50076 1 -1 ;PROHIBITED Left from 6th to Brannan
+  23899  23890  23891 1 -1 ;PROHIBITED Left from I-280 to Brannan
+  23899  23890  50100 1 -1 ;PROHIBITED U-turn from I-280 at Brannan
   24280  23946  24281 1 -1
   51761  23949  21120 1 -1
   24020  24022  33040 1 -1
   24186  24022  24018 1 -1
   24138  24055  24054 1 -1
-  21306  24073  24085 1 -1
+  21306  24073  24085 1 -1 ;Mission @ 25th NB left
   24071  24073  21306 1 -1
   24085  24073  24088 1 -1
-  24088  24073  24071 1 -1
-  24073  24088  24089 1 -1
+  24088  24073  24071 1 -1 ;Mission @ 25th SB left
+  24073  24088  24089 1 -1 ;Mission @ 24th NB left
+  24073  24088  24094 1 -1 ;Mission @ 24th NB through
   24074  24088  24073 1 -1
   24089  24088  24094 1 -1
-  24094  24088  24074 1 -1
-  24088  24094  24096 1 -1
-  24111  24094  24076 1 -1
+  24094  24088  24074 1 -1 ;Mission @ 24th SB left
+  24088  24094  24096 1 -1 ;Mission @ 23rd NB left
+  24111  24094  24076 1 -1 ;Mission @ 23rd SB left
   24082  24111  24094 1 -1
-  24094  24111  24112 1 -1
+  24094  24111  24112 1 -1 ;Mission @ 22nd NB left
   24112  24111  24113 1 -1
-  24113  24111  24082 1 -1
+  24113  24111  24082 1 -1 ;Mission @ 22nd SB left
   24084  24113  24111 1 -1
-  24111  24113  24147 1 -1
-  24144  24113  24084 1 -1
+  24111  24113  24147 1 -1 ;Mission @ 21st NB left
+  24144  24113  24084 1 -1 ;Mission @ 21st SB left
   24129  24132  24133 1 -1
   24139  24132  24127 1 -1
   24139  24142  24365 1 -1
   24141  24142  24139 1 -1
   24340  24142  24141 1 -1
   24365  24142  24340 1 -1
-  24113  24144  24146 1 -1
-  24145  24144  24130 1 -1
-  24144  24145  24148 1 -1
-  24149  24145  24131 1 -1
-  24145  24149  24150 1 -1
+  24113  24144  24113 1 -1
+  24113  24144  24145 1 -1
+  24113  24144  24146 1 -1 ;Mission @ 20th NB left
+  24133  24144  24145 1 -1 ;Mission @ 20th SB through
+  24145  24144  24130 1 -1 ;Mission @ 20th SB left
+  24144  24145  24148 1 -1 ;Mission @ 19th NB left
+  24149  24145  24131 1 -1 ;Mission @ 19th SB left
+  24145  24149  24150 1 -1 ;Mission @ 18th NB left
   24163  24149  24133 1 -1
+  24165  24149  24133 1 -1 ;Mission @ 18th SB left
+  24149  24165  24176 1 -1 ;Mission @ 17th NB left
   24164  24165  24176 1 -1
-  24170  24165  24140 1 -1
+  24170  24165  24140 1 -1 ;Mission @ 17th SB left
+  24165  24170  24165 1 -1
+  24165  24170  24171 1 -1 ;Mission @ 16th NB through
   24165  24170  24180 1 -1
   24168  24170  24165 1 -1
   24171  24170  24168 1 -1
   24180  24170  24171 1 -1
+  24170  24171  24179 1 -1 ;Mission @ 15th NB left
   24170  24171  24371 1 -1
+  24372  24171  24371 1 -1 ;Mission @ 15th SB left
   24190  24216  28084 1 -1
-  24386  24241  24349 1 -1
+  24344  24241  33027 1 -1 ;No Left trun NB SVN to 13th St
+  24386  24241  24349 1 -1 ;No Left trun SB SVN to 13th St
   52256  24241  24386 1 -1
   24285  24293  52739 1 -1
   24294  24293  52734 1 -1
   52734  24293  24285 1 -1
+  52739  24293  24294 1 -1
   24317  24311  24310 1 -1
   24417  24313  24416 1 -1
+  24317  24315  24316 1 -1 ;PROHIBITED Left from Mission at 7th
+  24431  24333  24324 1 -1 ;No Left on SB Hyde at McCallister
+  30055  24333  24324 1 -1 ;No through traffic on EB McAllister across Hyde 24383 24372 24370 1 -1 ; Mission @ 14th SB left
   33028  24349  24343 1 -1
+  24354  24358  33613 1 -1
+  24388  24358  24354 1 -1
   24383  24372  24370 1 -1
   24378  24377  25834 1 -1
   24241  24386  24354 1 -1
-  33613  24386  24354 1 -1
+  33613  24386  24354 1 -1 ;No Left trun SVN to Howard St
   24358  24388  24389 1 -1
   24358  24388  24393 1 -1
   24359  24388  24389 1 -1
@@ -264,16 +292,26 @@
   24389  24388  30748 1 -1
   24421  24388  24389 1 -1
   30748  24388  24364 1 -1
+  24392  24390  24404 1 -1 ;McCoppin EB LT onto Gough
+  24394  24404  24390 1 -1 ;No left turn from Colton to Gough St
   24364  24421  52741 1 -1
   24414  24421  24363 1 -1
+  24331  24429  24788 1 -1
   24434  24429  30742 1 -1
+  24788  24429  24434 1 -1
   30742  24429  24327 1 -1
-  24788  30742  30045 1 -1; PROHIBITED Left from Market at 7th
-  24317  24315  24316 1 -1; PROHIBITED Left from Mission at 7th
   24435  24434  24429 1 -1
   24462  24437  24434 1 -1
+  24455  24447  25906 1 -1 ;No left turn from NB Franklin to Oak
+  24455  24447  30705 1 -1 ;No right turn from NB Franklin to Oak
+  30705  24447  25906 1 -1 ;No through traffic for WB OAK by Franklin
+  24450  24448  30746 1 -1 ;No Left trun from SB Van Ness to Fell St
+  30748  24448  24457 1 -1 ;No Left trun from NB Van Ness to Fell St
+  52820  24462  24439 1 -1
+  52820  24462  24466 1 -1
   24459  24466  24467 1 -1
   54091  24498  50069 1 -1
+  24526  24522  24523 1 -1 ;1st St SB RT onto Folsom
   52702  24550  52704 1 -1
   52716  24560  52726 1 -1
   24530  24563  52716 1 -1
@@ -281,6 +319,11 @@
   24603  24597  24594 1 -1
   24597  24610  24599 1 -1
   52732  24613  24616 1 -1
+  24605  24618  30734 1 -1 ;2nd at Stevenson NB thru
+  52732  24632  24631 1 -1 ;PROHIBITED Left from Mission at 4th
+  24633  24634  24886 1 -1 ;5TH ST NB LT onto Mission
+  24884  24634  52733 1 -1
+  24886  24634  24884 1 -1
   52733  24634  24633 1 -1
   24675  24685  24686 1 -1
   24671  24686  24679 1 -1
@@ -299,17 +342,30 @@
   24791  24792  24793 1 -1
   24840  24795  24787 1 -1
   24902  24892  24636 1 1
+  24902  24892  30768 1 -1
+  24902  24892  52816 1 -1
   30768  24892  24636 1 -1
+  30768  24892  24894 1 -1
+  52816  24892  24894 1 -1
   24895  24894  24904 1 -1
+  24897  24898  24922 1 -1
   24897  24898  30739 1 -1
   24922  24898  24924 1 -1
+  24901  24903  24904 1 -1 ;Geary WB left
   24904  24903  24917 1 -1
+  24918  24903  24904 1 -1 ;Powell SB thru25175 25176 25186 1 -1
   24903  24904  24902 1 -1
+  24905  24904  24894 1 -1 ;OFarrell RT to Powell SB
+  24905  24904  24903 1 -1 ;O'Farrell EB left
   24918  24909  24920 1 -1
   24909  24918  24908 1 -1
+  24295  24922  24898 1 -1
+  24295  24922  30740 1 -1 ;PROHIBITED Left from 6th at Market
   24326  24922  24898 1 -1
-  30740  24922  30046 1 -1; PROHIBITED Left from Market at Taylor
-  24295  24922  30740 1 -1; PROHIBITED Left from 6th at Market
+  24326  24922  30740 1 -1
+  24898  24922  24295 1 -1
+  30740  24922  24898 1 -1 ;Forced Right on EB Market at 6th
+  30740  24922  30046 1 -1 ;Forced Right on EB Market at 6th
   25000  24976  24973 1 -1
   24984  24980  24979 1 -1
   30769  24980  50236 1 -1
@@ -327,18 +383,25 @@
   25057  25060  25330 1 -1
   25092  25096  25094 1 -1
   25066  25111  25063 1 -1
-  25117  25111  25411 1 -1
   25117  25111  25066 1 -1
+  25117  25111  25411 1 -1
   25177  25178  25190 1 -1
+  25180  25178  25149 1 -1
+  30709  25192  25179 1 -1 ;VN SBLT to O'Farrell
+  25195  25197  25213 1 -1 ;VN NBLT to Geary
   30079  25215  25200 1 -1
-  26494  25216  25215 1 -1
-  26494  25216  33775 1 -1
+  25213  25216  26494 1 -1 ;NB Franklin to P Yorke
+  26494  25216  25215 1 0  ;Allow P Yorke to access EB Post
+  26494  25216  33775 1 0  ;Allow P Yorke to access NB Franklin
   30080  25219  25220 1 -1
   25211  25222  25226 1 -1
   25226  25225  26500 1 -1
   26536  25225  25221 1 -1
   25255  25252  25236 1 -1
   25292  25308  25305 1 -1
+  25307  25308  25111 1 -1 ;Broadway WB U-turn onto broadway tunnel @ Larkin
+  25307  25308  25305 1 -1 ;Broadway WB LT @ Larkin
+  25307  25308  25315 1 -1 ;Broadway WB thru @ Larkin
   25315  25308  25312 1 -1
   25308  25315  25316 1 -1
   25316  25315  26547 1 -1
@@ -349,7 +412,14 @@
   25319  25321  24794 1 -1
   25330  25321  25319 1 -1
   25332  25352  25412 1 -1
+  25353  25352  25412 1 -1
   25364  25352  25365 1 -1
+  25365  25352  25332 1 -1
+  25365  25352  25351 1 -1
+  25365  25352  25353 1 -1
+  25365  25352  25412 1 -1
+  25412  25352  25364 1 -1
+  25412  25352  25365 1 -1
   25364  25424  25423 1 -1
   30710  25424  25425 1 -1
   25437  25427  25419 1 -1
@@ -367,6 +437,7 @@
   25533  25535  25593 1 -1
   25534  25535  25533 1 -1
   25534  25535  25593 1 -1
+  25593  25535  25524 1 -1 ;Jones SB LT onto Bay
   25533  25536  25572 1 -1
   25577  25536  25575 1 -1
   25550  25549  25559 1 -1
@@ -407,8 +478,15 @@
   25821  25828  25827 1 -1
   25701  25835  24378 1 -1
   25701  25835  25837 1 -1
+  24403  25853  30756 1 -1 ;No left turn from NB Valencia to McCoppin
+  53030  25854  25857 1 -1 ;From SB Octavia West to EB Haight
+  25858  25855  25857 1 -1 ;From NB Octavia East to WB Haight
+  53033  25856  25909 1 -1 ;From SB Octavia West to EB Page
   25858  25857  25867 1 -1
+  25907  25857  25855 1 -1 ;From SB Octavia to EB Haight
+  53029  25857  25854 1 -1 ;From NB Octavia to WB Haight
   53029  25857  25867 1 -1
+  53031  25859  25909 1 -1 ;From NB Octavia East to WB Page
   25841  25871  25874 1 -1
   25865  25871  25845 1 -1
   25877  25878  25874 1 -1
@@ -428,13 +506,15 @@
   25893  25884  25888 1 -1
   30758  25884  25876 1 -1
   25892  25893  25894 1 -1
+  25902  25901  25903 1 -1
+  25907  25909  25856 1 -1 ;From NB Octavia to WB Page
   25907  25909  25908 1 -1
   53031  25909  25908 1 -1
+  53032  25909  25859 1 -1 ;From SB Octavia to EB Page
   53033  25909  24456 1 -1
   25926  25914  25912 1 -1
   25926  25914  53035 1 -1
   53034  25914  25912 1 -1
-  53034  25914  25913 1 -1
   53034  25914  25913 1 -1
   53034  25914  53035 1 -1
   25972  25966  25959 1 -1
@@ -464,6 +544,7 @@
   26086  26087  22324 1 -1
   26154  26155  26156 1 -1
   26154  26155  32939 1 -1
+  32942  26180  26185 1 -1 ;Clayton LT onto Market
   32933  26192  32953 1 -1
   26338  26342  26344 1 -1
   26340  26342  26341 1 -1
@@ -497,7 +578,14 @@
   27198  26475  26476 1 -1
   25213  26494  25196 1 -1
   25213  26494  26492 1 -1
-  26501  26494  25216 1 -1
+  25214  26494  25196 1 -1 ;WB Peter Yorke to EB Starr King
+  25214  26494  26492 1 -1 ;WB Peter Yorke to SB Gough
+  25216  26494  25196 1 -1 ;Forbid Peter York LT to SB Starr King
+  25216  26494  26492 1 -1 ;Forbid Peter York LT to SB Gough
+  26496  26494  25214 1 -1 ;EB Geary LT to Peter Yorke @ Gough
+  26496  26494  25216 1 -1 ;Geary EB LT to P Yorke
+  26496  26494  26501 1 -1
+  26501  26494  25216 1 -1 ;Gough SB LT to P Yorke
   26494  26514  26496 1 -1
   26494  26514  26513 1 -1
   26587  26514  26505 1 -1
@@ -516,19 +604,23 @@
   26553  26552  26551 1 -1
   26590  26587  26588 1 -1
   26590  26587  26591 1 -1
+  26594  26587  26591 1 -1 ;Prohibit LT @ EB Geary/Webster
+  26587  26590  26589 1 -1
+  26594  26590  26592 1 -1
   26587  26594  26590 1 -1
   26587  26594  26595 1 -1
   26587  26594  26614 1 -1
   26596  26594  26587 1 -1
   26596  26594  26590 1 -1
   26596  26594  26595 1 -1
-  26618  26594  26614 1 -1
+  26618  26594  26614 1 0  ;Add Geary EB LT to Steiner
   26603  26598  26531 1 -1
   26534  26605  26604 1 -1
   26626  26615  26614 1 -1
   26594  26618  26619 1 -1
   26621  26618  26622 1 -1
   26618  26621  26802 1 -1
+  26762  26621  26623 1 -1
   26811  26621  26623 1 -1
   26810  26643  26817 1 -1
   26818  26643  26817 1 -1
@@ -539,6 +631,7 @@
   26696  26692  30062 1 -1
   26706  26695  26690 1 -1
   26695  26696  26691 1 -1
+  26700  26699  26696 1 -1 ;Franklin SB LT onto Lombard
   26715  26699  26700 1 -1
   26695  26706  26724 1 -1
   26705  26706  26702 1 -1
@@ -560,6 +653,7 @@
   26770  26751  26763 1 -1
   26727  26754  26755 1 -1
   26760  26754  26757 1 -1
+  26777  26758  26795 1 -1 ;Beach EB @ Buchanan is Right-Turn Only (no left onto Marina NW)
   26763  26764  26783 1 -1
   26784  26764  26776 1 -1
   26784  26764  26783 1 -1
@@ -568,18 +662,22 @@
   26643  26810  26627 1 -1
   26803  26811  26621 1 -1
   26803  26811  26812 1 -1
+  26835  26811  26814 1 -1 ;Geary WB Surface LT to Baker
+  26867  26811  26814 1 -1 ;Geary WB Tunnel LT to Baker
   26908  26811  26814 1 -1
   26908  26811  26829 1 -1
   32825  26811  26814 1 -1
   32825  26811  26829 1 -1
   32825  26811  26908 1 -1
   26368  26812  26801 1 -1
+  26834  26836  26400 1 0  ;Allow LT @ WB Geary/Masonic
   26845  26836  26834 1 -1
   26834  26838  26831 1 -1
   26839  26838  26831 1 -1
   26836  26845  26911 1 -1
   26844  26845  26840 1 -1
   26843  26846  26844 1 -1
+  26867  26908  26467 1 -1 ;Geary WB Tunnel LT to Collins SB
   26907  26908  26467 1 -1
   26907  26908  26811 1 -1
   26907  26908  26905 1 -1
@@ -602,6 +700,15 @@
   27148  27147  27154 1 -1
   27147  27148  27146 1 -1
   27160  27148  27155 1 -1
+  27087  27152  27151 1 -1
+  27151  27152  27153 1 -1 ;7th Ave NB LT onto Lincoln
+  27151  27152  27195 1 -1 ;7th Ave NB Thru @ Lincoln
+  27151  27152  33561 1 -1
+  27153  27152  33561 1 -1
+  27195  27152  27087 1 -1 ;7th Ave SB LT onto Lincoln
+  27195  27152  27151 1 -1 ;7th Ave SB Thru @ Lincoln
+  33561  27152  27087 1 -1
+  33561  27152  27151 1 -1
   27153  27156  27154 1 -1
   27154  27156  27157 1 -1
   27157  27156  27252 1 -1
@@ -615,21 +722,30 @@
   27168  27169  27167 1 -1
   27352  27169  27174 1 -1
   27194  27196  27085 1 -1
+  27221  27217  26934 1 -1
   27229  27221  27223 1 -1
+  27230  27229  27228 1 -1 ;Geary Eastbound LT to Palm NB
   27229  27230  27225 1 -1
   27231  27230  27232 1 -1
   27230  27231  27226 1 -1
   27245  27231  27246 1 -1
+  27245  27248  27242 1 -1
+  27249  27248  27250 1 -1
   27248  27249  27244 1 -1
   27284  27249  27251 1 -1
   27239  27255  27270 1 -1
   27272  27255  27270 1 -1
   27249  27284  27275 1 -1
   27285  27284  27286 1 -1
+  27284  27285  27276 1 -1 ;Prohibit LT @ WB Geary/7th
+  27288  27285  27287 1 -1 ;Prohibit LT @ EB Geary/7th
+  27285  27288  27282 1 0  ;Allow LT @ WB Geary/8th
+  27289  27288  27290 1 0  ;Allow LT @ EB Geary/8th
   27288  27289  27283 1 -1
   27301  27289  27291 1 -1
   27289  27301  27295 1 -1
   27302  27301  27303 1 -1
+  27481  27304  27306 1 -1
   23205  27333  27334 1 -1
   27335  27333  27318 1 -1
   27333  27335  27336 1 -1
@@ -709,10 +825,15 @@
   27484  27483  27481 1 -1
   27483  27484  27485 1 -1
   27620  27484  27482 1 -1
+  27480  27486  27478 1 0  ;Allow LT @ WB Geary/15th
+  27487  27486  27488 1 0  ;Allow LT @ EB Geary/15th
   27486  27487  27479 1 -1
   27500  27487  27491 1 -1
-  27487  27500  27494 1 -1
+  27487  27500  27494 1 -1 ;Prohibit LT @ WB Geary/17th
   27501  27500  27502 1 -1
+  27504  27501  27503 1 0  ;Allow LT @ EB Geary/18th
+  27501  27504  27498 1 -1
+  27505  27504  27506 1 -1
   27504  27505  27499 1 -1
   27537  27505  27507 1 -1
   27515  27519  32864 1 -1
@@ -721,13 +842,18 @@
   32864  27519  27521 1 -1
   27529  27530  27511 1 -1
   27545  27534  27536 1 -1
-  27505  27537  27531 1 -1
+  27505  27537  27531 1 -1 ;Prohibit LT @ EB Geary/21th
   27538  27537  27539 1 -1
+  27538  27541  27535 1 -1 ;Geary Eastbound LT to 23rd NB
+  27542  27541  27543 1 -1 ;Prohibit LT @ EB Geary/23th
   27541  27542  27536 1 -1
   27553  27542  27544 1 -1
   27542  27553  27547 1 -1
   27547  27553  27554 1 -1
   27554  27553  27555 1 -1
+  27553  27554  27548 1 -1 ;Geary Westbound LT to 26th SB
+  27557  27554  27556 1 -1 ;Geary Eastbound LT to 26th NB
+  27554  27557  27551 1 -1 ;Geary Westbound LT to 27th SB
   27557  27558  27552 1 -1
   27839  27558  27841 1 -1
   33637  27575  27581 1 -1
@@ -787,6 +913,7 @@
   27840  27839  27842 1 -1
   27844  27853  27838 1 -1
   27854  27853  27855 1 -1
+  27857  27854  27856 1 -1 ;Geary EB LT to 33rd NB
   27966  27942  27965 1 -1
   27801  27946  27934 1 -1
   27947  27946  27948 1 -1
@@ -802,12 +929,16 @@
   24494  30018  50065 1 -1
   23586  30021  23577 1 -1
   25912  30070  25906 1 -1
+  25912  30070  25912 1 -1 ;From SB Octavia to EB Oak
   53035  30070  25906 1 -1
   24568  30729  52725 1 1
   30728  30729  52725 1 -1
+  30730  30729  24673 1 -1
   30731  30730  24673 1 -1
   52726  30730  24673 1 1
+  52726  30730  30731 1 -1
   24672  30731  24666 1 1
+  24672  30731  30732 1 -1 ;1st St SB RT onto Market
   30730  30731  24666 1 -1
   24618  30734  30735 1 -1
   30733  30734  24618 1 -1
@@ -816,26 +947,52 @@
   24623  30735  30736 1 -1
   30734  30735  24621 1 -1
   24639  30738  24645 1 1
+  24639  30738  30737 1 -1
+  24639  30738  30768 1 -1
   30768  30738  24645 1 -1
   24888  30739  24893 1 1
+  24888  30739  24898 1 -1
+  24888  30739  52816 1 -1
   24893  30739  24888 1 1
-  24898  30739  24893 1 -1; PROHIBITED Left from Market at 5th North
+  24893  30739  24898 1 -1
+  24893  30739  52816 1 -1
+  24898  30739  24893 1 -1 ;PROHIBITED Left from Market at 5th North
+  52816  30739  24888 1 -1
+  30741  30740  24325 1 -1
+  24325  30741  30740 1 -1
+  24319  30742  24788 1 -1
+  24319  30742  30741 1 -1
+  24788  30742  30045 1 -1 ;PROHIBITED Left from Market at 7th
+  24416  30745  24436 1 -1 ;9th St NB LT onto Hayes
   30746  30745  30744 1 -1
   24436  30746  30748 1 -1
+  24448  30746  30745 1 -1
   30745  30746  24424 1 -1
+  30747  30746  24436 1 -1 ;Market at 10th EB left
+  30747  30746  30745 1 -1 ;Forced Right on EB Market at 10th
+  30746  30747  52741 1 -1
+  52741  30747  30748 1 -1
   24388  30748  24448 1 -1
+  24388  30748  30747 1 -1 ;SVN at Market NB right
   24388  30748  30749 1 -1
   30705  30748  30747 1 -1
   30705  30748  30749 1 -1
+  30747  30748  24388 1 -1
+  30749  30748  24448 1 -1
   24389  30749  24444 1 -1
   24389  30749  30750 1 -1
   24444  30749  24389 1 -1
   30748  30749  24389 1 -1
+  30755  30753  25857 1 -1
   25853  30755  30756 1 -1
+  30756  30755  25853 1 -1 ;No right turn from EB Market onto SB Valencia ;Geary center-consolidated penalities in 27th to Stanyan area
   30755  30756  25848 1 -1
+  30755  30756  40000 1 -1 ;From SW Market to SB Central Fwy
   30759  30756  25858 1 -1
-  30759  30756  40000 1 -1 
+  30759  30756  40000 1 -1
   52157  30756  30757 1 -1
+  52157  30756  30772 1 -1
+  52157  30756  40000 1 -1 ;From NB Central Fwy  to SB Central Fwy
   53028  30756  25848 1 -1
   53028  30756  30755 1 -1
   53029  30756  30755 1 -1
@@ -847,9 +1004,15 @@
   30757  30758  25860 1 -1
   25586  30766  25600 1 -1
   25598  30766  25600 1 -1
+  24656  30768  24892 1 -1 ;OFarrell RT onto Market
+  24656  30768  30738 1 -1 ;OFarrell LT onto Market
   24892  30768  24655 1 -1
+  30738  30768  24655 1 -1
   23431  32890  23424 1 -1
   32903  32890  33518 1 -1
+  24241  33027  24383 1 -1 ;No left turn from 13th St to NB Mission
+  24383  33027  24401 1 -1
+  24398  33027  22571 1 -1 ;No left turn from Duboce St to Otis
   24398  33027  52257 1 -1
   33229  33210  20257 1 -1
   20434  33227  20439 1 -1
@@ -865,235 +1028,6 @@
   20779  33674  20773 1 -1
   21020  33674  20779 1 -1
   52237  33722  22456 1 -1
-  30741  30740  24325 1 -1
-  24325  30741  30740 1 -1
-  25365  25352  25353 1 -1
-  25365  25352  25351 1 -1
-  25365  25352  25332 1 -1
-  25365  25352  25412 1 -1
-  25412  25352  25364 1 -1
-  25412  25352  25365 1 -1
-  25353  25352  25412 1 -1
-  27151  27152  33561 1 -1
-  27153  27152  33561 1 -1
-  27087  27152  27151 1 -1
-  33561  27152  27151 1 -1
-  33561  27152  27087 1 -1
-  30749  30748  24448 1 -1 
-  30747  30748  24388 1 -1 
-  52741  30747  30748 1 -1
-  30746  30747  52741 1 -1
-  52157  30756  30772 1 -1 
-  30755  30753  25857 1 -1
-  24897  24898  24922 1 -1 
-  24326  24922  24898 1 -1
-  24898  24922  24295 1 -1
-  52726  30730  30731 1 -1
-  24888  30739  24898 1 -1
-  24898  24922  24295 1 -1 
-  52739  24293  24294 1 -1
-  52734  24293  24285 1 -1 
-  24886  24634  24884 1 -1
-  24897  24898  30739 1 -1 
-  24326  24922  24898 1 -1 
-  24294  24293  52734 1 -1 
-  24285  24293  52739 1 -1 
-  52816  24892  24894 1 -1
-  30768  24892  24894 1 -1 
-  24788  24429  24434 1 -1 
-  30730  30729  24673 1 -1
-  24383  33027  24401 1 -1
-  24448  30746  30745 1 -1
-  24902  24892  52816 1 -1; PROHIBITED Right from Stockton at Market
-  52732  24632  24631 1 -1; PROHIBITED Left from Mission at 4th
-  24893  30739  52816 1 -1 
-  24884  24634  52733 1 -1
-  52816  30739  24888 1 -1
-  24354  24358  33613 1 -1 
-  24388  24358  24354 1 -1
-  24358  24388  24389 1 -1
-  26777  26758  26795 1 -1 ; Beach EB @ Buchanan is Right-Turn Only (no left onto Marina NW)
-  22443  22424  22420 1 -1 ; Sydney Way SB across Portola to Fowler not allowed (soft hit posts)
-  22443  22424  22437 1 -1 ; Sydney Way SB @ Portola: no left turn
-  22420  22424  22443 1 -1 ; Fowler Ave NB across Portola to Syndey Way not allowed (soft hit posts)
-  22420  22424  22433 1 -1 ; Fowler Ave NB @ Portola: no left turn
-  21598  22456  21593 1 -1 ; Plymouth Ave SB @ Sagamore: right only (no left onto San Jose Ave NE)
-  21598  22456  33438 1 -1 ; Plymouth Ave SB @ Sagamore: right only (no thru to Sickles Ave)
-  52157  30756  40000 1 -1 ; From NB Central Fwy  to SB Central Fwy
-  25857  53029  25858 1 -1 ; From SB Octavia Blvd to NB Octavia East St
-  53029  25857  25854 1 -1 ; From NB Octavia to WB Haight
-  25858  25855  25857 1 -1 ; From NB Octavia East to WB Haight
-  25907  25857  25855 1 -1 ; From SB Octavia to EB Haight
-  53030  25854  25857 1 -1 ; From SB Octavia West to EB Haight
-  25907  25909  25856 1 -1 ; From NB Octavia to WB Page
-  53031  25859  25909 1 -1 ; From NB Octavia East to WB Page
-  53032  25909  25859 1 -1 ; From SB Octavia to EB Page
-  53033  25856  25909 1 -1 ; From SB Octavia West to EB Page
-  25912  30070  25912 1 -1 ; From SB Octavia to EB Oak
-  30755  30756  40000 1 -1 ; From SW Market to SB Central Fwy
-  27195  27152  27151 1 -1 ; 7th Ave SB Thru @ Lincoln
-  27151  27152  27195 1 -1 ; 7th Ave NB Thru @ Lincoln
-  27195  27152  27087 1 -1 ; 7th Ave SB LT onto Lincoln
-  27151  27152  27153 1 -1 ; 7th Ave NB LT onto Lincoln
-  25307  25308  25111 1 -1 ; Broadway WB U-turn onto broadway tunnel @ Larkin
-  25307  25308  25315 1 -1 ; Broadway WB thru @ Larkin
-  25307  25308  25305 1 -1 ; Broadway WB LT @ Larkin
-  32942  26180  26185 1 -1 ; Clayton LT onto Market
-  26700  26699  26696 1 -1 ; Franklin SB LT onto Lombard 
-  24392  24390  24404 1 -1 ; McCoppin EB LT onto Gough
-  25593  25535  25524 1 -1 ; Jones SB LT onto Bay
-  24416  30745  24436 1 -1 ; 9th St NB LT onto Hayes  
-  24633  24634  24886 1 -1 ; 5TH ST NB LT onto Mission
-  24526  24522  24523 1 -1 ; 1st St SB RT onto Folsom
-  24672  30731  30732 1 -1 ; 1st St SB RT onto Market
-  26496  26494  25214 1 -1 ; EB Geary LT to Peter Yorke @ Gough
-  25214  26494  25196 1 -1 ; WB Peter Yorke to EB Starr King
-  25214  26494  26492 1 -1 ; WB Peter Yorke to SB Gough
-  52834  52844  52836 1 -1 ; I-80 EB off-ramp to on-ramp immediately on YBI
-30740 24922 24898 1 -1 ; Forced Right on EB Market at 6th
-30740 24922 30046 1 -1 ; Forced Right on EB Market at 6th
-30747 30746 30745 1 -1 ; Forced Right on EB Market at 10th
-;Geneva/Cow Palace/Linda Vista area
-  72003  72004  7719 1 -1; Main St westbound left onto Bayshore Blvd30755 25853 30756 1 -1 ; No right turn from SB Valencia to McCoppin
-24403 25853 30756 1 -1 ; No left turn from NB Valencia to McCoppin
-24455 24447 25906 1 -1 ; No left turn from NB Franklin to Oak
-24455 24447 30705 1 -1 ; No right turn from NB Franklin to Oak
-30748 24448 24457 1 -1 ; No left turn from NB Van Ness to Fell
-33613 24386 24354 1 -1 ; No left turn from SB South Van Ness to Howard
-24344 24241 33027 1 -1 ; No left turn from NB South Van Ness to 13th St
-24386 24241 24349 1 -1 ; No left turn from SB South Van Ness to 13th St
-24431 24333 24324 1 -1 ; No left turn from SB Hyde to MCallister
-24394 24404 24390 1 -1 ; No left turn from WB Colton to Gough
-24241 33027 24383 1 -1 ; No left turn from WB 13th to Mission
-30055 24333 24324 1 -1 ; No through traffic on EB McAllister across Hyde 24383 24372 24370 1 -1 ; Mission @ 14th SB left
- 24372 24171 24371 1 -1 ; Mission @ 15th SB left
- 24170 24171 24179 1 -1 ; Mission @ 15th NB left
- 24165 24170 24171 1 -1 ; Mission @ 16th NB through
- 24170 24165 24140 1 -1 ; Mission @ 17th SB left
- 24149 24165 24176 1 -1 ; Mission @ 17th NB left
- 24165 24149 24133 1 -1 ; Mission @ 18th SB left
- 24145 24149 24150 1 -1 ; Mission @ 18th NB left
- 24149 24145 24131 1 -1 ; Mission @ 19th SB left
- 24144 24145 24148 1 -1 ; Mission @ 19th NB left
- 24145 24144 24130 1 -1 ; Mission @ 20th SB left
- 24113 24144 24146 1 -1 ; Mission @ 20th NB left
- 24133 24144 24145 1 -1 ; Mission @ 20th SB through
- 24144 24113 24084 1 -1 ; Mission @ 21st SB left
- 24111 24113 24147 1 -1 ; Mission @ 21st NB left
- 24113 24111 24082 1 -1 ; Mission @ 22nd SB left
- 24094 24111 24112 1 -1 ; Mission @ 22nd NB left
- 24111 24094 24076 1 -1 ; Mission @ 23rd SB left
- 24088 24094 24096 1 -1 ; Mission @ 23rd NB left
- 24094 24088 24074 1 -1 ; Mission @ 24th SB left
- 24073 24088 24089 1 -1 ; Mission @ 24th NB left
- 24073 24088 24094 1 -1 ; Mission @ 24th NB through
- 24088 24073 24071 1 -1 ; Mission @ 25th SB left
- 21306 24073 24085 1 -1 ; Mission @ 25th NB left
- 24073 21306 24072 1 -1 ; Mission @ 26th SB left
- 21302 21306 24086 1 -1 ; Mission @ 26th NB left
- 21302 21304 33364 1 -1 ; Mission @ Cesar Chavez SB left
- 21340 21304 21343 1 -1 ; Mission @ Cesar Chavez NB left
- 21340 21304 21302 1 -1 ; Mission @ Cesar Chavez NB through
-24905 24904 24894 1 -1; O'Farrell EB right
-24905 24904 24903 1 -1; O'Farrell EB left
-24901 24903 24904 1 -1; Geary WB left
-24918 24903 24904 1 -1; Powell SB thru25175 25176 25186 1 -1
-25177 25178 25190 1 -1
-52820 24462 24466 1 -1
-52820 24462 24439 1 -1
-25180 25178 25149 1 -1
- 25902 25901 25903 1 -1
-
-
- 24331 24429 24788 1 -1
- 24319 30742 24788 1 -1
- 24319 30742 30741 1 -1
- 24295 24922 24898 1 -1
- 24326 24922 30740 1 -1
- 24897 24898 24922 1 -1
- 24893 30739 24898 1 -1
- 24888 30739 52816 1 -1
- 24902 24892 52816 1 -1
- 24902 24892 30768 1 -1
- 30738 30768 24655 1 -1
- 24656 30768 30738 1 -1
- 24639 30738 30737 1 -1
- 24639 30738 30768 1 -1
- 24656 30768 24892 1 -1
-30747 30746 24436 1 -1; Market at 10th EB left
-24388 30748 30747 1 -1; SVN at Market NB right
-24605 24618 30734 1 -1; 2nd at Stevenson NB thru
-30756 30755 25853 1 -1 ; No right turn from EB Market onto SB Valencia ;Geary center-consolidated penalities in 27th to Stanyan area
-  27538  27541  27535 1 -1; Geary Eastbound LT to 23rd NB
-  27505  27504  27506 1 -1
-  27501  27504  27498 1 -1
-  27481  27304  27306 1 -1
-  27289  27288  27290 1 -1
-  27285  27288  27282 1 -1
-  27249  27248  27250 1 -1
-  27245  27248  27242 1 -1
-  27221  27217  26934 1 -1  
-
-  27554  27557  27551 1 -1; Geary Westbound LT to 27th SB
-  27557  27554  27556 1 -1; Geary Eastbound LT to 26th NB
-  27553  27554  27548 1 -1; Geary Westbound LT to 26th SB
-  27542  27541  27543 1 -1; Prohibit LT @ EB Geary/23th
-  27505  27537  27531 1 -1; Prohibit LT @ EB Geary/21th
-  27504  27501  27503 1  0; Allow LT @ EB Geary/18th
-  27487  27500  27494 1 -1; Prohibit LT @ WB Geary/17th
-  27480  27486  27478 1  0; Allow LT @ WB Geary/15th
-  27487  27486  27488 1  0; Allow LT @ EB Geary/15th
-  27285  27288  27282 1  0; Allow LT @ WB Geary/8th
-  27289  27288  27290 1  0; Allow LT @ EB Geary/8th
-  27284  27285  27276 1 -1; Prohibit LT @ WB Geary/7th
-  27288  27285  27287 1 -1; Prohibit LT @ EB Geary/7th
-  27230  27229  27228 1 -1; Geary Eastbound LT to Palm NB
-
-;Geary side-side penalities in west of 27th or east of Stanyan area  
-  26762  26621  26623 1 -1
-  26594  26590  26592 1 -1
-  26587  26590  26589 1 -1
-  26496  26494  26501 1 -1
-  26834	 26836  26400 1  0; Allow LT @ WB Geary/Masonic
-  
-  27857  27854  27856 1 -1; Geary EB LT to 33rd NB
-  26867  26908  26467 1 -1; Geary WB Tunnel LT to Collins SB
-  26867  26811  26814 1 -1; Geary WB Tunnel LT to Baker
-  26835  26811  26814 1 -1; Geary WB Surface LT to Baker
-  26618  26594  26614 1 0; Add Geary EB LT to Steiner
-  24905  24904  24894 1 -1; OFarrell RT to Powell SB
-  24656  30768  24892 1 -1; OFarrell RT onto Market
-  24656  30768  30738 1 -1; OFarrell LT onto Market
-  25195  25197  25213 1 -1; VN NBLT to Geary
-  30709  25192  25179 1 -1; VN SBLT to O'Farrell
-  26501  26494  25216 1 -1; Gough SB LT to P Yorke
-  26496  26494  25216 1 -1; Geary EB LT to P Yorke
-  26496  26494  25214 1 -1 ; EB Geary LT to Peter Yorke @ Gough
-  25213  25216  26494 1 -1; NB Franklin to P Yorke
-  26494  25216  25215 1 0; Allow P Yorke to access EB Post 
-  26494  25216  33775 1 0; Allow P Yorke to access NB Franklin
-  25216  26494  26492 1 -1; Forbid Peter York LT to SB Gough
-  25216  26494  25196 1 -1; Forbid Peter York LT to SB Starr King
-  25214  26494  25196 1 -1 ; WB Peter Yorke to EB Starr King
-  25214  26494  26492 1 -1 ; WB Peter Yorke to SB Gough
-  26594  26587  26591 1 -1; Prohibit LT @ EB Geary/Webster
-
-
-
-
-
-
-
-
-
-24431 24333 24324 1 -1 ; No Left on SB Hyde at McCallister
-24450 24448 30746 1 -1 ; No Left trun from SB Van Ness to Fell St
-30748 24448 24457 1 -1 ; No Left trun from NB Van Ness to Fell St
-33613 24386 24354 1 -1 ; No Left trun SVN to Howard St
-24344 24241 33027 1 -1 ; No Left trun NB SVN to 13th St
-24386 24241 24349 1 -1 ; No Left trun SB SVN to 13th St
-30705 24447 25906 1 -1 ; No through traffic for WB OAK by Franklin
-24394 24404 24390 1 -1 ; No left turn from Colton to Gough St
-24241 33027 24383 1 -1 ; No left turn from 13th St to NB Mission 
-24398 33027 22571 1 -1 ; No left turn from Duboce St to Otis
-
+  52834  52844  52836 1 -1 ;I-80 EB off-ramp to on-ramp immediately on YBI
+  25857  53029  25858 1 -1 ;From SB Octavia Blvd to NB Octavia East St
+  72003  72004   7719 1 -1 ;Main St westbound left onto Bayshore Blvd30755 25853 30756 1 -1 ; No right turn from SB Valencia to McCoppin
